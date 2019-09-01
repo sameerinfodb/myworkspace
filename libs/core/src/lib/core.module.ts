@@ -18,7 +18,7 @@ export class CoreModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: CoreModule,
-      providers: [AuthService, fakeBackendProvider]
+      providers: [AuthService]
     };
   }
   constructor(

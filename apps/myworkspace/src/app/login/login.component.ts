@@ -7,7 +7,7 @@ import { AuthService } from '@myworkspace/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  constructor(@Inject('AuthService') private auth: AuthService) {}
+  constructor(private auth: AuthService) {}
 
   ngOnInit() {}
 
